@@ -8,7 +8,7 @@ object SubjectRepository {
         "Physics",
         "Programming",
         "Computer Networks",
-        "German"
+        "English"
     )
 
     private val flashcardsBySubject = mapOf(
@@ -36,11 +36,11 @@ object SubjectRepository {
             Flashcard(3, "What is DNS?", "DNS translates domain names into IP addresses."),
             Flashcard(4, "What is TCP?", "TCP is a reliable protocol for sending data between devices.")
         ),
-        "German" to listOf(
-            Flashcard(1, "What does Hallo mean?", "Hallo means hello."),
-            Flashcard(2, "How do you say thank you in German?", "Danke means thank you."),
-            Flashcard(3, "What does Guten Morgen mean?", "Guten Morgen means good morning."),
-            Flashcard(4, "What does Ich lerne Deutsch mean?", "It means I am learning German.")
+        "English" to listOf(
+            Flashcard(1, "What is a noun?", "A noun names a person, place, thing, or idea."),
+            Flashcard(2, "What is a synonym?", "A synonym is a word with the same or nearly the same meaning as another word."),
+            Flashcard(3, "What does an adjective describe?", "An adjective describes a noun or pronoun."),
+            Flashcard(4, "What is the main idea of a paragraph?", "The main idea is the central point or message of the paragraph.")
         )
     )
 

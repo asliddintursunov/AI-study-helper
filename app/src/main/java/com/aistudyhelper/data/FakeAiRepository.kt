@@ -12,7 +12,7 @@ object FakeAiRepository {
             "function" in text -> "A function is a reusable block of code that performs one clear task."
             "gravity" in text -> "Gravity is the force that attracts objects with mass toward each other."
             "derivative" in text -> "A derivative shows how fast a function changes at a specific point."
-            "german" in text || "hallo" in text -> "Hallo means hello in German. Guten Morgen means good morning."
+            "english" in text || "grammar" in text -> "English practice can include grammar, vocabulary, reading comprehension, and clear writing."
             "study" in text -> "Try studying in short focused sessions, then test yourself with flashcards."
             else -> "This is a simulated AI answer. Review the related subject flashcards to practice the concept."
         }

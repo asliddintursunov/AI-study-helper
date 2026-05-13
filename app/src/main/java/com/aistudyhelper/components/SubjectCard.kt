@@ -95,7 +95,7 @@ private fun subjectIcon(subject: String): ImageVector {
         "Physics" -> Icons.Rounded.Science
         "Programming" -> Icons.Rounded.Code
         "Computer Networks" -> Icons.Rounded.Wifi
-        "German" -> Icons.Rounded.Translate
+        "English" -> Icons.Rounded.Translate
         else -> Icons.AutoMirrored.Rounded.MenuBook
     }
 }
@@ -106,7 +106,7 @@ private fun subjectAccent(subject: String): Color {
         "Physics" -> Color(0xFF008C7A)
         "Programming" -> Color(0xFF7C4DFF)
         "Computer Networks" -> Color(0xFFE38900)
-        "German" -> Color(0xFFB2572D)
+        "English" -> Color(0xFFB2572D)
         else -> Color(0xFF2457D6)
     }
 }
